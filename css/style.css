@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: url(bg.svg);
+}
+.letter{
+    width: 666px;
+    height: 383px;
+    background-color: rgb(53, 58, 69);
+    box-shadow: 0px 26px 49px 0px rgba(35, 70, 133, 0.28);
+    border-radius: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle{
+    background: url(Forma.png);
+    width: 93px;
+    height: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -46px;
+    border-radius: 50%;
+}
+.title h1{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #538fff;
+    margin-top: 38px;
+    margin-bottom: 35px;
+}
+.slogan{
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+form{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 38px;
+}
+form input[type="text"]{
+    width: 372px;
+    height: 52px;
+    padding-left: 17px;
+    border-radius: 10px;
+    border: 1px solid #787d87;
+    display: inline-block;
+    font-size: 14px;
+}
+form input[type="text"]::placeholder{
+    color: #a9a9a9;
+    font-size: 14px;
+
+}
+form input[type="submit"]{
+    display: inline-block;
+    background: #538fff;
+    width: 160px;
+    height: 51px;
+    border: 0 solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.garanty-text{
+    color: #787d87;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}  
